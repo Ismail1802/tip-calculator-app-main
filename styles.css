@@ -63,8 +63,10 @@ h2 {
   color: white;
   background-color: hsl(183, 100%, 15%);
 }
-.container {
+main {
   height: 100vh;
+}
+.container {
   background-color: white;
   padding: 1.5rem;
 }
