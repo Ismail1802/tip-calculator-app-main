@@ -24,7 +24,6 @@ const calcTip = (e) => {
     tip = (e.target.value * billInput.value) / 100 / numOfPeople.value;
     total = billInput.value / numOfPeople.value + tip;
   } else if (e.target.id == "numofpeople") {
-    console.log(persentValue);
     tip = (persentValue * billInput.value) / 100 / e.target.value;
     total = billInput.value / e.target.value + tip;
   }
