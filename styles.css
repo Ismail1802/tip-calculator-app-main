@@ -43,6 +43,7 @@ input:focus {
   color: hsl(185, 41%, 84%);
 }
 body {
+  min-height: 100vh;
   background-color: hsl(185, 41%, 84%);
 }
 header {
@@ -63,9 +64,7 @@ h2 {
   color: white;
   background-color: hsl(183, 100%, 15%);
 }
-main {
-  height: 100vh;
-}
+
 .container {
   background-color: white;
   padding: 1.5rem;
